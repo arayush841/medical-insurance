@@ -15,7 +15,7 @@ def load_model(file):
 mymodel = load_model('model_new.pkl')
 
 st.title('Medical Insurance Cost Prediction')
-st.write('Summer Internship Project by Ayush Raj, B.Tech(CSE)-5th Semester')
+#st.write('Summer Internship Project by Ayush Raj, B.Tech(CSE)-5th Semester')
 
 age = st.number_input("Enter your Age.", min_value = 18, max_value= 100, step = 1)
 sex = st.selectbox('Enter your Gender. ( Male : 1 , Female : 0 )', (0, 1))
